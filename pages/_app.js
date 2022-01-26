@@ -6,7 +6,7 @@ import '../styles/globals.css'
 import Header from '../components/Header'
 import { DataProvider } from '../store/GlobalState'
 
-axios.defaults.baseURL = 'http://localhost:5000'
+axios.defaults.baseURL = ' https://pic-fin.vercel.app'
 
 function MyApp({ Component, pageProps }) {
   return (
