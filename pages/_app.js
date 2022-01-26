@@ -6,7 +6,7 @@ import '../styles/globals.css'
 import Header from '../components/Header'
 import { DataProvider } from '../store/GlobalState'
 
-axios.defaults.baseURL = '$PORT'
+axios.defaults.baseURL = 'http://localhost:5000'
 
 function MyApp({ Component, pageProps }) {
   return (
